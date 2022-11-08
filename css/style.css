@@ -1,4 +1,3 @@
-
 * {
   margin: 0px;
   padding: 0px;
@@ -62,6 +61,8 @@ nav .header_right {
 
 nav .header_right .nav-heading {
   display: inline-block;
+  color: grey;
+  text-shadow: 2px 2px 5px blue;
   font-size: xxx-large;
   padding: 3% 0%;
 }
@@ -72,7 +73,8 @@ nav .header_right .algos {
   -ms-grid-columns: (16.66667%)[6];
       grid-template-columns: repeat(6, 16.66667%);
   place-content: center;
-  padding: 2% 0%;
+  padding: 2%;
+  gap: 3%;
 }
 
 nav .header_right .algos button {
@@ -80,7 +82,7 @@ nav .header_right .algos button {
   border: none;
   color: white;
   outline: none;
-  padding: 5% 0%;
+  padding: 5%;
   font-size: x-large;
 }
 
@@ -181,10 +183,5 @@ section #Info_Cont2 h3 {
 {
 
 }
-*/
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    *****************
 */
 /*# sourceMappingURL=style.css.map */

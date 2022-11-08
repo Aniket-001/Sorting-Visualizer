@@ -58,6 +58,8 @@ nav
         {
             display: inline-block;
             //text-align: center;
+            color:grey;
+            text-shadow: 2px 2px 5px blue ;
             font-size: xxx-large;
             padding: 3% 0%;
         }
@@ -66,14 +68,15 @@ nav
             display: grid;
             grid-template-columns: repeat($no_algos,(100%/$no_algos));
             place-content: center;
-            padding: 2% 0%;
+            padding: 2%;
+            gap: 3%;
             button
             {
                 background-color: transparent;
                 border: none;
                 color: white;
                 outline: none;
-                padding: 5% 0%;
+                padding: 5%;
                 font-size: x-large;
                 &:hover
                 {
